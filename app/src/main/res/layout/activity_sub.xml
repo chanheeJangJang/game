@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sub">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/img" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="203dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="를 찾아 주세요!" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="0"
+                android:gravity="right"/>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="/ 7" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="text"
+                android:visibility="visible" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnstart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="시작!" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageViewback"
+        android:layout_width="413dp"
+        android:layout_height="421dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/back" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="15dp"
+        android:layout_height="13dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginBottom="50dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewback"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageViewback"
+        app:layout_constraintVertical_bias="0.888"
+        app:srcCompat="@drawable/ministraw" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="15dp"
+        android:layout_height="13dp"
+        android:layout_marginStart="60dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewback"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageViewback"
+        app:layout_constraintVertical_bias="0.316"
+        app:srcCompat="@drawable/ministraw" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="15dp"
+        android:layout_height="13dp"
+        android:layout_marginStart="112dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewback"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageViewback"
+        app:layout_constraintVertical_bias="0.039"
+        app:srcCompat="@drawable/ministraw" />
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="15dp"
+        android:layout_height="13dp"
+        android:layout_marginStart="364dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewback"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageViewback"
+        app:layout_constraintVertical_bias="0.747"
+        app:srcCompat="@drawable/ministraw" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="15dp"
+        android:layout_height="13dp"
+        android:layout_marginStart="60dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewback"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageViewback"
+        app:layout_constraintVertical_bias="0.2"
+        app:srcCompat="@drawable/ministraw" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="15dp"
+        android:layout_height="13dp"
+        android:layout_marginStart="288dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewback"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageViewback"
+        app:layout_constraintVertical_bias="0.592"
+        app:srcCompat="@drawable/ministraw" />
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="15dp"
+        android:layout_height="13dp"
+        android:layout_marginStart="22dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewback"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageViewback"
+        app:layout_constraintVertical_bias="0.039"
+        app:srcCompat="@drawable/ministraw" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewback">
+
+        <TextView
+            android:id="@+id/textTime"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:gravity="center"
+            android:text="제한 시간 30초"
+            android:textSize="34sp"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FEFEFE"
+            android:text="NEXT"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView_W"
+        android:layout_width="match_parent"
+        android:layout_height="135dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/w" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
